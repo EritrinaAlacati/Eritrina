@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menü</title>
+<style>
+body { font-family: Arial; margin:0; background:#111; color:white; }
+h1 { text-align:center; padding:20px; }
+.section { padding:15px; }
+.item { display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid #333; }
+.title { font-weight:bold; margin-top:20px; color:#f5c542; }
+</style>
+</head>
+<body>
+
+<h1>MENÜ</h1>
+
+<div class="section">
+<div class="title">🥤 Soğuk İçecekler</div>
+<div class="item"><span>Uludağ Su</span><span>80 TL</span></div>
+<div class="item"><span>Cola</span><span>160 TL</span></div>
+<div class="item"><span>Fanta</span><span>160 TL</span></div>
+<div class="item"><span>Ayran</span><span>180 TL</span></div>
+<div class="item"><span>Red Bull</span><span>250 TL</span></div>
+
+<div class="title">☕ Sıcak İçecekler</div>
+<div class="item"><span>Çay</span><span>70 TL</span></div>
+<div class="item"><span>Türk Kahvesi</span><span>160 TL</span></div>
+<div class="item"><span>Latte</span><span>250 TL</span></div>
+
+<div class="title">🍔 Yemekler</div>
+<div class="item"><span>Hamburger</span><span>920 TL</span></div>
+<div class="item"><span>Cheeseburger</span><span>980 TL</span></div>
+<div class="item"><span>Köfte & Patates</span><span>980 TL</span></div>
+</div>
+
+</body>
+</html>
